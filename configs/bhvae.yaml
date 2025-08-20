@@ -6,7 +6,7 @@ model_params:
   beta: 10.
 
 data_params:
-  data_path: "Data/"
+  data_path: "/content/PyTorch-VAE/celeba/"
   train_batch_size: 64
   val_batch_size:  64
   patch_size: 64
@@ -25,5 +25,5 @@ trainer_params:
   max_epochs: 10
 
 logging_params:
-  save_dir: "logs/"
+  save_dir: "/content/drive/MyDrive/Colab Notebooks/PyTorch-VAE/logs/"
   name: 'BetaVAE'
